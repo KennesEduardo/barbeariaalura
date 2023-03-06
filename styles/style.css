@@ -261,14 +261,18 @@ table {
 
     /* MENU */
 
+    .nav-bar{
+       flex-direction: column;
+    }
+
     .nav-bar__item{
-        margin-left: 1em;
-        
+        display: flex;
+        justify-content: flex-start;
     }
     .nav-bar__link {
-        padding: 2em;
-        margin: 2em;
+        padding: 0.4em;
     }
+    
 
     /* Home */
     .conteudo__subtitulo {
